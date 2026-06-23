@@ -10,3 +10,7 @@ flags:
       variants:
         - key: green
           attachment: {}
+segments:
+    - key: demo-segment
+      name: demo-segment
+      match_type: ALL_MATCH_TYPE
