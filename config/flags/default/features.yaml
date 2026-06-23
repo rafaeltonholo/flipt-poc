@@ -7,3 +7,6 @@ flags:
       name: proceed-to-checkout-color
       type: VARIANT_FLAG_TYPE
       enabled: false
+      variants:
+        - key: green
+          attachment: {}
