@@ -13,4 +13,9 @@ flags:
 segments:
     - key: demo-segment
       name: demo-segment
+      constraints:
+        - type: STRING_COMPARISON_TYPE
+          property: app
+          operator: eq
+          value: k9mail
       match_type: ALL_MATCH_TYPE
