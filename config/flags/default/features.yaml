@@ -2,3 +2,8 @@ version: "1.5"
 namespace:
     key: default
     name: Default
+flags:
+    - key: proceed-to-checkout-color
+      name: proceed-to-checkout-color
+      type: VARIANT_FLAG_TYPE
+      enabled: false
