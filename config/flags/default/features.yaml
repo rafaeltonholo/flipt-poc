@@ -6,9 +6,13 @@ flags:
     - key: proceed-to-checkout-color
       name: proceed-to-checkout-color
       type: VARIANT_FLAG_TYPE
-      enabled: false
+      enabled: true
       variants:
         - key: green
+          attachment: {}
+        - key: red
+          attachment: {}
+        - key: blue
           attachment: {}
 segments:
     - key: demo-segment
