@@ -12,7 +12,8 @@ flags:
           attachment: {}
         - key: red
           attachment: {}
-        - key: blue
+        - default: true
+          key: blue
           attachment: {}
       rules:
         - segment:
