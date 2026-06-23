@@ -1,0 +1,9 @@
+version: "1.5"
+namespace:
+    key: default
+    name: Default
+flags:
+    - key: testing
+      name: testing
+      type: VARIANT_FLAG_TYPE
+      enabled: false
