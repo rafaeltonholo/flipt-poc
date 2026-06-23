@@ -7,3 +7,7 @@ flags:
       name: testing
       type: VARIANT_FLAG_TYPE
       enabled: false
+      variants:
+        - default: true
+          key: test
+          attachment: {}
